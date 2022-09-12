@@ -13,6 +13,8 @@
 		E91339F128CF1A7500DEBC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91339EF28CF1A7500DEBC7A /* Main.storyboard */; };
 		E91339F328CF1A7900DEBC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91339F228CF1A7900DEBC7A /* Assets.xcassets */; };
 		E91339F628CF1A7900DEBC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91339F428CF1A7900DEBC7A /* LaunchScreen.storyboard */; };
+		E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339FD28CF212400DEBC7A /* HomeViewController.swift */; };
+		E9133A0028CF212400DEBC7A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91339FE28CF212400DEBC7A /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E91339F228CF1A7900DEBC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91339F528CF1A7900DEBC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91339F728CF1A7900DEBC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91339FD28CF212400DEBC7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E91339FE28CF212400DEBC7A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E91339F228CF1A7900DEBC7A /* Assets.xcassets */,
 				E91339F428CF1A7900DEBC7A /* LaunchScreen.storyboard */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
+				E91339FD28CF212400DEBC7A /* HomeViewController.swift */,
+				E91339FE28CF212400DEBC7A /* HomeViewController.xib */,
 			);
 			path = "GIT-TEST-Flow";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				E91339F628CF1A7900DEBC7A /* LaunchScreen.storyboard in Resources */,
 				E91339F328CF1A7900DEBC7A /* Assets.xcassets in Resources */,
 				E91339F128CF1A7500DEBC7A /* Main.storyboard in Resources */,
+				E9133A0028CF212400DEBC7A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */,
+				E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
