@@ -72,10 +72,9 @@
 		E91339E828CF1A7500DEBC7A /* GIT-TEST-Flow */ = {
 			isa = PBXGroup;
 			children = (
+				E9133A0D28CF28C800DEBC7A /* Module */,
 				E91339E928CF1A7500DEBC7A /* AppDelegate.swift */,
 				E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */,
-				E91339ED28CF1A7500DEBC7A /* ViewController.swift */,
-				E91339EF28CF1A7500DEBC7A /* Main.storyboard */,
 				E91339F228CF1A7900DEBC7A /* Assets.xcassets */,
 				E91339F428CF1A7900DEBC7A /* LaunchScreen.storyboard */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
@@ -89,6 +88,31 @@
 				E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */,
 			);
 			path = "GIT-TEST-Flow";
+			sourceTree = "<group>";
+		};
+		E9133A0D28CF28C800DEBC7A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A0E28CF28E100DEBC7A /* LogIn */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E9133A0E28CF28E100DEBC7A /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A0F28CF28F400DEBC7A /* View */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		E9133A0F28CF28F400DEBC7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91339EF28CF1A7500DEBC7A /* Main.storyboard */,
+				E91339ED28CF1A7500DEBC7A /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
