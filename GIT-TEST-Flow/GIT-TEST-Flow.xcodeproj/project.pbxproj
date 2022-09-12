@@ -17,6 +17,8 @@
 		E9133A0028CF212400DEBC7A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91339FE28CF212400DEBC7A /* HomeViewController.xib */; };
 		E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */; };
 		E9133A0428CF21DE00DEBC7A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */; };
+		E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */; };
+		E9133A0C28CF227F00DEBC7A /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E91339FE28CF212400DEBC7A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				E91339FE28CF212400DEBC7A /* HomeViewController.xib */,
 				E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */,
 				E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */,
+				E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */,
+				E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */,
 			);
 			path = "GIT-TEST-Flow";
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 				E91339F328CF1A7900DEBC7A /* Assets.xcassets in Resources */,
 				E91339F128CF1A7500DEBC7A /* Main.storyboard in Resources */,
 				E9133A0428CF21DE00DEBC7A /* ProfileViewController.xib in Resources */,
+				E9133A0C28CF227F00DEBC7A /* ChangePasswordViewController.xib in Resources */,
 				E9133A0028CF212400DEBC7A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +162,7 @@
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
+				E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */,
 				E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */,
 				E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */,
 			);
