@@ -53,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B5E0D1928CF3421002F5A14 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				E91339E928CF1A7500DEBC7A /* AppDelegate.swift */,
+				E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */,
+				E91339F228CF1A7900DEBC7A /* Assets.xcassets */,
+				E91339F428CF1A7900DEBC7A /* LaunchScreen.storyboard */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
 		E91339DD28CF1A7500DEBC7A = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +83,8 @@
 		E91339E828CF1A7500DEBC7A /* GIT-TEST-Flow */ = {
 			isa = PBXGroup;
 			children = (
+				9B5E0D1928CF3421002F5A14 /* Initialization */,
 				E9133A0D28CF28C800DEBC7A /* Module */,
-				E91339E928CF1A7500DEBC7A /* AppDelegate.swift */,
-				E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */,
-				E91339F228CF1A7900DEBC7A /* Assets.xcassets */,
-				E91339F428CF1A7900DEBC7A /* LaunchScreen.storyboard */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
 				E91339FD28CF212400DEBC7A /* HomeViewController.swift */,
 				E91339FE28CF212400DEBC7A /* HomeViewController.xib */,
