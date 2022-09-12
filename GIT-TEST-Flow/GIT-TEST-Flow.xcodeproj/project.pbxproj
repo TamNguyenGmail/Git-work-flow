@@ -84,6 +84,8 @@
 		9B5E0D1D28CF3821002F5A14 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				9B5E0D2228CF3931002F5A14 /* DeleteAccount */,
+				9B5E0D2028CF3900002F5A14 /* ChangePassword */,
 				9B5E0D1E28CF383B002F5A14 /* Profile */,
 			);
 			path = User;
@@ -102,6 +104,40 @@
 			children = (
 				E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */,
 				E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B5E0D2028CF3900002F5A14 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E0D2128CF391C002F5A14 /* View */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		9B5E0D2128CF391C002F5A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */,
+				E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B5E0D2228CF3931002F5A14 /* DeleteAccount */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E0D2328CF3947002F5A14 /* View */,
+			);
+			path = DeleteAccount;
+			sourceTree = "<group>";
+		};
+		9B5E0D2328CF3947002F5A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A1128CF2B5000DEBC7A /* DeleteAccoountViewController.swift */,
+				E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,10 +164,6 @@
 				9B5E0D1928CF3421002F5A14 /* Initialization */,
 				E9133A0D28CF28C800DEBC7A /* Module */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
-				E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */,
-				E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */,
-				E9133A1128CF2B5000DEBC7A /* DeleteAccoountViewController.swift */,
-				E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */,
 			);
 			path = "GIT-TEST-Flow";
 			sourceTree = "<group>";
