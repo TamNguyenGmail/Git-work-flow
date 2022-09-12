@@ -64,6 +64,48 @@
 			path = Initialization;
 			sourceTree = "<group>";
 		};
+		9B5E0D1B28CF37FC002F5A14 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E0D1C28CF3805002F5A14 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B5E0D1C28CF3805002F5A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91339FD28CF212400DEBC7A /* HomeViewController.swift */,
+				E91339FE28CF212400DEBC7A /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B5E0D1D28CF3821002F5A14 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E0D1E28CF383B002F5A14 /* Profile */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9B5E0D1E28CF383B002F5A14 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E0D1F28CF384A002F5A14 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9B5E0D1F28CF384A002F5A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */,
+				E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E91339DD28CF1A7500DEBC7A = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +128,6 @@
 				9B5E0D1928CF3421002F5A14 /* Initialization */,
 				E9133A0D28CF28C800DEBC7A /* Module */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
-				E91339FD28CF212400DEBC7A /* HomeViewController.swift */,
-				E91339FE28CF212400DEBC7A /* HomeViewController.xib */,
-				E9133A0128CF21DE00DEBC7A /* ProfileViewController.swift */,
-				E9133A0228CF21DE00DEBC7A /* ProfileViewController.xib */,
 				E9133A0928CF227F00DEBC7A /* ChangePasswordViewController.swift */,
 				E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */,
 				E9133A1128CF2B5000DEBC7A /* DeleteAccoountViewController.swift */,
@@ -101,6 +139,8 @@
 		E9133A0D28CF28C800DEBC7A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				9B5E0D1D28CF3821002F5A14 /* User */,
+				9B5E0D1B28CF37FC002F5A14 /* Home */,
 				E9133A0E28CF28E100DEBC7A /* LogIn */,
 			);
 			path = Module;
