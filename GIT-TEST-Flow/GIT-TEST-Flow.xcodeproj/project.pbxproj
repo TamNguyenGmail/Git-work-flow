@@ -30,6 +30,8 @@
 		E9133A0C28CF227F00DEBC7A /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */; };
 		E9133A1328CF2B5000DEBC7A /* DeleteAccoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1128CF2B5000DEBC7A /* DeleteAccoountViewController.swift */; };
 		E9133A1428CF2B5000DEBC7A /* DeleteAccoountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */; };
+		E9133A1928D0C4EC00DEBC7A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */; };
+		E9133A1A28D0C4EC00DEBC7A /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		E9133A0A28CF227F00DEBC7A /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
 		E9133A1128CF2B5000DEBC7A /* DeleteAccoountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccoountViewController.swift; sourceTree = "<group>"; };
 		E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteAccoountViewController.xib; sourceTree = "<group>"; };
+		E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +270,7 @@
 		E9133A0D28CF28C800DEBC7A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E9133A1528D0C4D000DEBC7A /* AR */,
 				9B69B75728D089CF001F59A7 /* VR */,
 				9B69B74628D08916001F59A7 /* Chat */,
 				9B69B74528D0890A001F59A7 /* eKYC */,
@@ -290,6 +295,23 @@
 			children = (
 				E91339EF28CF1A7500DEBC7A /* Main.storyboard */,
 				E91339ED28CF1A7500DEBC7A /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9133A1528D0C4D000DEBC7A /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A1628D0C4D900DEBC7A /* View */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		E9133A1628D0C4D900DEBC7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */,
+				E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -359,6 +381,7 @@
 				9B69B74B28D08970001F59A7 /* MapViewController.xib in Resources */,
 				E9133A0428CF21DE00DEBC7A /* ProfileViewController.xib in Resources */,
 				E9133A1428CF2B5000DEBC7A /* DeleteAccoountViewController.xib in Resources */,
+				E9133A1A28D0C4EC00DEBC7A /* ARViewController.xib in Resources */,
 				E9133A0C28CF227F00DEBC7A /* ChangePasswordViewController.xib in Resources */,
 				9B69B75628D089C3001F59A7 /* ChatViewController.xib in Resources */,
 				9B69B75C28D089ED001F59A7 /* VRViewController.xib in Resources */,
@@ -382,6 +405,7 @@
 				E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */,
 				9B69B74F28D089A2001F59A7 /* eKYCViewController.swift in Sources */,
 				9B69B75B28D089ED001F59A7 /* VRViewController.swift in Sources */,
+				E9133A1928D0C4EC00DEBC7A /* ARViewController.swift in Sources */,
 				E9133A1328CF2B5000DEBC7A /* DeleteAccoountViewController.swift in Sources */,
 				E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */,
 				E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */,
