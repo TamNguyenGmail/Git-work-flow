@@ -8,7 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    //MARK: diem
+    //MARK: Properties
     private let diem = 5
 
     override func viewDidLoad() {
