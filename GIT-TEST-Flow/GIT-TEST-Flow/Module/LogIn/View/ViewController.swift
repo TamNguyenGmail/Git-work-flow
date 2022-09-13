@@ -16,13 +16,24 @@ class ViewController: UIViewController {
         table.register(UserCell.self, forCellReuseIdentifier: "UserCell")
         return table
     }()
+    
+    private let countLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 14)
+        label.text = "IndexPath"
+        label.textAlignment = .center
+        return label
+    }()
 
     //MARK: Life cycle
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         view.addSubview(userTableView)
-        userTableView.frame = view.bounds
+        userTableView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height / 2 - 10)
+        
+        view.addSubview(countLabel)
+        countLabel.frame = CGRect(x: 0, y: view.bounds.height / 2, width: view.bounds.width, height: 44)
         
     }
 
@@ -53,6 +64,7 @@ extension ViewController: UITableViewDelegate {
         guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else {return}
         
         cell.setupBackgroundColor(color: .red)
+        self.countLabel.text = String(indexPath.row)
         
     }
     
