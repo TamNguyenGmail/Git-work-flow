@@ -8,7 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    //MARK: tom_nguyen
+    //MARK: tam_nguyen
 
     override func viewDidLoad() {
         super.viewDidLoad()
