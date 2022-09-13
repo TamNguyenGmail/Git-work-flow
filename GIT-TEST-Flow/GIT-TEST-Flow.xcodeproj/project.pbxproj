@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B73D28D068AF001F59A7 /* UserCell.swift */; };
+		9B69B74A28D08970001F59A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B74828D08970001F59A7 /* MapViewController.swift */; };
+		9B69B74B28D08970001F59A7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B74928D08970001F59A7 /* MapViewController.xib */; };
+		9B69B74F28D089A2001F59A7 /* eKYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B74D28D089A2001F59A7 /* eKYCViewController.swift */; };
+		9B69B75028D089A2001F59A7 /* eKYCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B74E28D089A2001F59A7 /* eKYCViewController.xib */; };
+		9B69B75528D089C3001F59A7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B75328D089C3001F59A7 /* ChatViewController.swift */; };
+		9B69B75628D089C3001F59A7 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B75428D089C3001F59A7 /* ChatViewController.xib */; };
+		9B69B75B28D089ED001F59A7 /* VRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B75928D089ED001F59A7 /* VRViewController.swift */; };
+		9B69B75C28D089ED001F59A7 /* VRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B75A28D089ED001F59A7 /* VRViewController.xib */; };
 		E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339E928CF1A7500DEBC7A /* AppDelegate.swift */; };
 		E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */; };
 		E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339ED28CF1A7500DEBC7A /* ViewController.swift */; };
@@ -26,6 +34,14 @@
 
 /* Begin PBXFileReference section */
 		9B69B73D28D068AF001F59A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		9B69B74828D08970001F59A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9B69B74928D08970001F59A7 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		9B69B74D28D089A2001F59A7 /* eKYCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eKYCViewController.swift; sourceTree = "<group>"; };
+		9B69B74E28D089A2001F59A7 /* eKYCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eKYCViewController.xib; sourceTree = "<group>"; };
+		9B69B75328D089C3001F59A7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9B69B75428D089C3001F59A7 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		9B69B75928D089ED001F59A7 /* VRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRViewController.swift; sourceTree = "<group>"; };
+		9B69B75A28D089ED001F59A7 /* VRViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VRViewController.xib; sourceTree = "<group>"; };
 		E91339E628CF1A7500DEBC7A /* GIT-TEST-Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-TEST-Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91339E928CF1A7500DEBC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +168,74 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		9B69B74428D088F7001F59A7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B74728D08943001F59A7 /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9B69B74528D0890A001F59A7 /* eKYC */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B74C28D08979001F59A7 /* View */,
+			);
+			path = eKYC;
+			sourceTree = "<group>";
+		};
+		9B69B74628D08916001F59A7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B75128D089AA001F59A7 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		9B69B74728D08943001F59A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B74828D08970001F59A7 /* MapViewController.swift */,
+				9B69B74928D08970001F59A7 /* MapViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B69B74C28D08979001F59A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B74D28D089A2001F59A7 /* eKYCViewController.swift */,
+				9B69B74E28D089A2001F59A7 /* eKYCViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B69B75128D089AA001F59A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B75328D089C3001F59A7 /* ChatViewController.swift */,
+				9B69B75428D089C3001F59A7 /* ChatViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B69B75728D089CF001F59A7 /* VR */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B75828D089DE001F59A7 /* View */,
+			);
+			path = VR;
+			sourceTree = "<group>";
+		};
+		9B69B75828D089DE001F59A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B75928D089ED001F59A7 /* VRViewController.swift */,
+				9B69B75A28D089ED001F59A7 /* VRViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E91339DD28CF1A7500DEBC7A = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +266,10 @@
 		E9133A0D28CF28C800DEBC7A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				9B69B75728D089CF001F59A7 /* VR */,
+				9B69B74628D08916001F59A7 /* Chat */,
+				9B69B74528D0890A001F59A7 /* eKYC */,
+				9B69B74428D088F7001F59A7 /* Map */,
 				9B5E0D1D28CF3821002F5A14 /* User */,
 				9B5E0D1B28CF37FC002F5A14 /* Home */,
 				E9133A0E28CF28E100DEBC7A /* LogIn */,
@@ -265,11 +353,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91339F628CF1A7900DEBC7A /* LaunchScreen.storyboard in Resources */,
+				9B69B75028D089A2001F59A7 /* eKYCViewController.xib in Resources */,
 				E91339F328CF1A7900DEBC7A /* Assets.xcassets in Resources */,
 				E91339F128CF1A7500DEBC7A /* Main.storyboard in Resources */,
+				9B69B74B28D08970001F59A7 /* MapViewController.xib in Resources */,
 				E9133A0428CF21DE00DEBC7A /* ProfileViewController.xib in Resources */,
 				E9133A1428CF2B5000DEBC7A /* DeleteAccoountViewController.xib in Resources */,
 				E9133A0C28CF227F00DEBC7A /* ChangePasswordViewController.xib in Resources */,
+				9B69B75628D089C3001F59A7 /* ChatViewController.xib in Resources */,
+				9B69B75C28D089ED001F59A7 /* VRViewController.xib in Resources */,
 				E9133A0028CF212400DEBC7A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,9 +375,13 @@
 			files = (
 				9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */,
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
+				9B69B75528D089C3001F59A7 /* ChatViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
+				9B69B74A28D08970001F59A7 /* MapViewController.swift in Sources */,
 				E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */,
+				9B69B74F28D089A2001F59A7 /* eKYCViewController.swift in Sources */,
+				9B69B75B28D089ED001F59A7 /* VRViewController.swift in Sources */,
 				E9133A1328CF2B5000DEBC7A /* DeleteAccoountViewController.swift in Sources */,
 				E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */,
 				E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */,
