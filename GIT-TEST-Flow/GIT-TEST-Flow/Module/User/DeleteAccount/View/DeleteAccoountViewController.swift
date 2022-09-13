@@ -8,6 +8,7 @@
 import UIKit
 
 class DeleteAccoountViewController: UIViewController {
+    //MARK: tam_nguyen
 
     override func viewDidLoad() {
         super.viewDidLoad()
