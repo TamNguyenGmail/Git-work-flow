@@ -32,6 +32,8 @@
 		E9133A1428CF2B5000DEBC7A /* DeleteAccoountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */; };
 		E9133A1928D0C4EC00DEBC7A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */; };
 		E9133A1A28D0C4EC00DEBC7A /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */; };
+		E9133A1F28D0C72000DEBC7A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */; };
+		E9133A2028D0C72000DEBC7A /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		E9133A1228CF2B5000DEBC7A /* DeleteAccoountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteAccoountViewController.xib; sourceTree = "<group>"; };
 		E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +274,7 @@
 		E9133A0D28CF28C800DEBC7A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E9133A1B28D0C70800DEBC7A /* Music */,
 				E9133A1528D0C4D000DEBC7A /* AR */,
 				9B69B75728D089CF001F59A7 /* VR */,
 				9B69B74628D08916001F59A7 /* Chat */,
@@ -312,6 +317,23 @@
 			children = (
 				E9133A1728D0C4EC00DEBC7A /* ARViewController.swift */,
 				E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9133A1B28D0C70800DEBC7A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A1C28D0C70F00DEBC7A /* View */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		E9133A1C28D0C70F00DEBC7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */,
+				E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -378,6 +400,7 @@
 				9B69B75028D089A2001F59A7 /* eKYCViewController.xib in Resources */,
 				E91339F328CF1A7900DEBC7A /* Assets.xcassets in Resources */,
 				E91339F128CF1A7500DEBC7A /* Main.storyboard in Resources */,
+				E9133A2028D0C72000DEBC7A /* MusicViewController.xib in Resources */,
 				9B69B74B28D08970001F59A7 /* MapViewController.xib in Resources */,
 				E9133A0428CF21DE00DEBC7A /* ProfileViewController.xib in Resources */,
 				E9133A1428CF2B5000DEBC7A /* DeleteAccoountViewController.xib in Resources */,
@@ -404,6 +427,7 @@
 				9B69B74A28D08970001F59A7 /* MapViewController.swift in Sources */,
 				E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */,
 				9B69B74F28D089A2001F59A7 /* eKYCViewController.swift in Sources */,
+				E9133A1F28D0C72000DEBC7A /* MusicViewController.swift in Sources */,
 				9B69B75B28D089ED001F59A7 /* VRViewController.swift in Sources */,
 				E9133A1928D0C4EC00DEBC7A /* ARViewController.swift in Sources */,
 				E9133A1328CF2B5000DEBC7A /* DeleteAccoountViewController.swift in Sources */,
