@@ -8,8 +8,8 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    //MARK: trinh
-    private let trinh = 10
+    //MARK: diem
+    private let diem = 5
 
     override func viewDidLoad() {
         super.viewDidLoad()
