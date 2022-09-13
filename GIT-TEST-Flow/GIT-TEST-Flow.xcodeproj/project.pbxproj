@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B73D28D068AF001F59A7 /* UserCell.swift */; };
 		E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339E928CF1A7500DEBC7A /* AppDelegate.swift */; };
 		E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */; };
 		E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339ED28CF1A7500DEBC7A /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B69B73D28D068AF001F59A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		E91339E628CF1A7500DEBC7A /* GIT-TEST-Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-TEST-Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91339E928CF1A7500DEBC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9B69B73C28D0688A001F59A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B73D28D068AF001F59A7 /* UserCell.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		E91339DD28CF1A7500DEBC7A = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +171,7 @@
 		E91339E828CF1A7500DEBC7A /* GIT-TEST-Flow */ = {
 			isa = PBXGroup;
 			children = (
+				9B69B73C28D0688A001F59A7 /* Common */,
 				9B5E0D1928CF3421002F5A14 /* Initialization */,
 				E9133A0D28CF28C800DEBC7A /* Module */,
 				E91339F728CF1A7900DEBC7A /* Info.plist */,
@@ -270,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */,
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
