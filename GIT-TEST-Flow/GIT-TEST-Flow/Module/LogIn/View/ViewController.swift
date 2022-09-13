@@ -63,7 +63,7 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else {return}
         
-        cell.setupBackgroundColor(color: .red)
+        cell.setupBackgroundColor(color: UIColor.random())
         self.countLabel.text = String(indexPath.row)
         
     }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B73D28D068AF001F59A7 /* UserCell.swift */; };
+		9B69B74128D077DA001F59A7 /* CGFLoat + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B74028D077DA001F59A7 /* CGFLoat + Extension.swift */; };
+		9B69B74328D07860001F59A7 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B74228D07860001F59A7 /* UIColor + Extension.swift */; };
 		E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339E928CF1A7500DEBC7A /* AppDelegate.swift */; };
 		E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */; };
 		E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91339ED28CF1A7500DEBC7A /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		9B69B73D28D068AF001F59A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		9B69B74028D077DA001F59A7 /* CGFLoat + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFLoat + Extension.swift"; sourceTree = "<group>"; };
+		9B69B74228D07860001F59A7 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		E91339E628CF1A7500DEBC7A /* GIT-TEST-Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-TEST-Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91339E928CF1A7500DEBC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,9 +151,19 @@
 		9B69B73C28D0688A001F59A7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9B69B73F28D077A8001F59A7 /* Extensions */,
 				9B69B73D28D068AF001F59A7 /* UserCell.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		9B69B73F28D077A8001F59A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B74028D077DA001F59A7 /* CGFLoat + Extension.swift */,
+				9B69B74228D07860001F59A7 /* UIColor + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E91339DD28CF1A7500DEBC7A = {
@@ -282,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */,
+				9B69B74128D077DA001F59A7 /* CGFLoat + Extension.swift in Sources */,
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
@@ -289,6 +304,7 @@
 				E9133A1328CF2B5000DEBC7A /* DeleteAccoountViewController.swift in Sources */,
 				E91339EC28CF1A7500DEBC7A /* SceneDelegate.swift in Sources */,
 				E91339FF28CF212400DEBC7A /* HomeViewController.swift in Sources */,
+				9B69B74328D07860001F59A7 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
