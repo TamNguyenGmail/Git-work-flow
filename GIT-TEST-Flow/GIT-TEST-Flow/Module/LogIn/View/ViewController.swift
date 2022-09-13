@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    //MARK: diem
+    //MARK: Trinh
 
     override func viewDidLoad() {
         super.viewDidLoad()
