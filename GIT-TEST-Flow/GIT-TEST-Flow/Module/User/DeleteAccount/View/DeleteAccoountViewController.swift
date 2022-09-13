@@ -8,6 +8,7 @@
 import UIKit
 
 class DeleteAccoountViewController: UIViewController {
+    //MARK: khanh
 
     override func viewDidLoad() {
         super.viewDidLoad()
