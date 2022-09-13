@@ -8,6 +8,7 @@
 import UIKit
 
 class MapViewController: UITableViewCell {
+    //map
 
     override func awakeFromNib() {
         super.awakeFromNib()
