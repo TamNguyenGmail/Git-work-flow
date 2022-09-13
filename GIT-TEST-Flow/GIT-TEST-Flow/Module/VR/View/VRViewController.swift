@@ -8,6 +8,7 @@
 import UIKit
 
 class VRViewController: UIViewController {
+    //MARK: thien
 
     override func viewDidLoad() {
         super.viewDidLoad()
