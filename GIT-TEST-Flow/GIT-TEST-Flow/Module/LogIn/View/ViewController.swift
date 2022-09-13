@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     private lazy var userTableView: UITableView = {
         let table = UITableView()
         table.dataSource = self
+        table.delegate = self
         table.register(UserCell.self, forCellReuseIdentifier: "UserCell")
         return table
     }()
@@ -40,6 +41,25 @@ extension ViewController: UITableViewDataSource {
         cell.setupBackgroundColor(color: .cyan)
         
         return cell
+        
+    }
+    
+}
+
+//MARK: - Delegate
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else {return}
+        
+        cell.setupBackgroundColor(color: .red)
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else {return}
+
+        cell.setupBackgroundColor(color: .cyan)
         
     }
     

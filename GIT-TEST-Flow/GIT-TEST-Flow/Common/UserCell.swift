@@ -13,6 +13,7 @@ class UserCell: UITableViewCell {
     //MARK: - Init
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupUI()
         
     }
     
@@ -21,6 +22,11 @@ class UserCell: UITableViewCell {
     }
     
     //MARK: - Helpers
+    private func setupUI() {
+        self.selectionStyle = .none
+        
+    }
+    
     func setupBackgroundColor(color: UIColor) {
         self.backgroundColor = color
         
