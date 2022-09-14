@@ -8,7 +8,7 @@
 import UIKit
 
 class ChatViewController: UIViewController {
-    //MARK: - UI Properties
+    //MARK: - UI Properties and outlets
     private lazy var chatTableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = self

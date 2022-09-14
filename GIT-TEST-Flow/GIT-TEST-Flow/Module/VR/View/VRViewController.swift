@@ -8,7 +8,7 @@
 import UIKit
 
 class VRViewController: UIViewController {
-    //MARK: - Properties
+    //MARK: - UI Properties and outlets
     private lazy var vrTableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = self
