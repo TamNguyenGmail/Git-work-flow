@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //MARK: Outlets
     //MARK: Properties
     private lazy var userTableView: UITableView = {
         let table = UITableView()
@@ -17,13 +18,17 @@ class ViewController: UIViewController {
         return table
     }()
 
-    //MARK: Life cycle
+    //MARK: View cycle
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         view.addSubview(userTableView)
         userTableView.frame = view.bounds
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
 }
