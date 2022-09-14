@@ -11,6 +11,7 @@ class HomeViewController: UIViewController {
     //MARK: Properties
     private let diem = 5
 
+    //MARK: - View cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 

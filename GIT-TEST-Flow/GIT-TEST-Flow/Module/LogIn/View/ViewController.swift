@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         return table
     }()
 
-    //MARK: Life cycle
+    //MARK: View cycle
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
