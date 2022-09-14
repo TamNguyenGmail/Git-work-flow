@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     //MARK: Properties
     private let diem = 5
+    private let yen = 6
 
     override func viewDidLoad() {
         super.viewDidLoad()
