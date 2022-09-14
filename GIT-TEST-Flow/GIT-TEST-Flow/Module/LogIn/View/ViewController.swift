@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         userTableView.frame = view.bounds
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
 
 }
 
