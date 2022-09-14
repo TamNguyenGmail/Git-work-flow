@@ -16,16 +16,74 @@ class ViewController: UIViewController {
         table.register(UserCell.self, forCellReuseIdentifier: "UserCell")
         return table
     }()
-
-    //MARK: Life cycle
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
+    
+    private lazy var customTextField: CustomTextField = {
+        let textField = CustomTextField()
+        textField.output = self
+        return textField
+    }()
+    
+    private lazy var userNameTextField: CustomTextField = {
+        let textField = CustomTextField()
+        textField.output = self
+        return textField
+    }()
+    
+    //MARK: - Life cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        
+    }
+    
+    //MARK: - Helpers
+    private func setupUI() {
         
         view.addSubview(userTableView)
-        userTableView.frame = view.bounds
+        userTableView.snp.makeConstraints { make in
+            
+            make.top.leading.trailing.equalToSuperview()
+            make.height.equalTo(200)
+            
+        }
+        
+        let vStack = UIStackView(arrangedSubviews: [customTextField, userNameTextField])
+        vStack.axis = .vertical
+        vStack.distribution = .fillEqually
+        
+        view.addSubview(vStack)
+        vStack.snp.makeConstraints { make in
+            
+            make.top.equalTo(userTableView.snp.bottom).offset(10)
+            make.leading.trailing.equalToSuperview()
+            
+        }
+        
+        customTextField.snp.makeConstraints { make in
+            
+            make.height.equalTo(80)
+            
+        }
         
     }
 
+}
+
+//MARK: - Text field output
+extension ViewController: CustomTextFieldProtocol {
+    
+    func textFieldDidChange(text: String) {
+        
+        print(text)
+        
+    }
+    
+    func textFieldDidEnd(text: String) {
+        
+        print(text)
+        
+    }
+    
 }
 
 //MARK: - Data source

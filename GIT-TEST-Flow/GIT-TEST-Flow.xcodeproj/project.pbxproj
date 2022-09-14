@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		467B1F5481CCC08ACB5CBE0B /* Pods_GIT_TEST_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A112060109E1022BA5FA1425 /* Pods_GIT_TEST_Flow.framework */; };
 		9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B73D28D068AF001F59A7 /* UserCell.swift */; };
 		9B69B74A28D08970001F59A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B74828D08970001F59A7 /* MapViewController.swift */; };
 		9B69B74B28D08970001F59A7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B74928D08970001F59A7 /* MapViewController.xib */; };
@@ -35,9 +36,13 @@
 		E9133A1F28D0C72000DEBC7A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */; };
 		E9133A2028D0C72000DEBC7A /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */; };
 		E9133A2328D15BAC00DEBC7A /* MusicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A2228D15BAC00DEBC7A /* MusicPresenter.swift */; };
+		E9133A2F28D176BE00DEBC7A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A2E28D176BE00DEBC7A /* CustomTextField.swift */; };
+		E9133A3228D1892300DEBC7A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A3128D1892300DEBC7A /* CustomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670324728F3F93A0D9BA9F5A /* Pods-GIT-TEST-Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIT-TEST-Flow.release.xcconfig"; path = "Target Support Files/Pods-GIT-TEST-Flow/Pods-GIT-TEST-Flow.release.xcconfig"; sourceTree = "<group>"; };
+		96FB7373763B4249344D8E48 /* Pods-GIT-TEST-Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIT-TEST-Flow.debug.xcconfig"; path = "Target Support Files/Pods-GIT-TEST-Flow/Pods-GIT-TEST-Flow.debug.xcconfig"; sourceTree = "<group>"; };
 		9B69B73D28D068AF001F59A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9B69B74828D08970001F59A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9B69B74928D08970001F59A7 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		9B69B75428D089C3001F59A7 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		9B69B75928D089ED001F59A7 /* VRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRViewController.swift; sourceTree = "<group>"; };
 		9B69B75A28D089ED001F59A7 /* VRViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VRViewController.xib; sourceTree = "<group>"; };
+		A112060109E1022BA5FA1425 /* Pods_GIT_TEST_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIT_TEST_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91339E628CF1A7500DEBC7A /* GIT-TEST-Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-TEST-Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91339E928CF1A7500DEBC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91339EB28CF1A7500DEBC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,8 @@
 		E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
 		E9133A2228D15BAC00DEBC7A /* MusicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPresenter.swift; sourceTree = "<group>"; };
+		E9133A2E28D176BE00DEBC7A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E9133A3128D1892300DEBC7A /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +83,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467B1F5481CCC08ACB5CBE0B /* Pods_GIT_TEST_Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E79132C8A998E612A139F00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96FB7373763B4249344D8E48 /* Pods-GIT-TEST-Flow.debug.xcconfig */,
+				670324728F3F93A0D9BA9F5A /* Pods-GIT-TEST-Flow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		939C493CE1CCD76AF739AFEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A112060109E1022BA5FA1425 /* Pods_GIT_TEST_Flow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B5E0D1928CF3421002F5A14 /* Initialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +199,8 @@
 		9B69B73C28D0688A001F59A7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E9133A3028D1890400DEBC7A /* CustomTextView */,
+				E9133A2D28D1764D00DEBC7A /* CustomTextField */,
 				9B69B73D28D068AF001F59A7 /* UserCell.swift */,
 			);
 			path = Common;
@@ -251,6 +279,8 @@
 			children = (
 				E91339E828CF1A7500DEBC7A /* GIT-TEST-Flow */,
 				E91339E728CF1A7500DEBC7A /* Products */,
+				6E79132C8A998E612A139F00 /* Pods */,
+				939C493CE1CCD76AF739AFEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -349,6 +379,22 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		E9133A2D28D1764D00DEBC7A /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A2E28D176BE00DEBC7A /* CustomTextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		E9133A3028D1890400DEBC7A /* CustomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A3128D1892300DEBC7A /* CustomTextView.swift */,
+			);
+			path = CustomTextView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,9 +402,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91339FA28CF1A7900DEBC7A /* Build configuration list for PBXNativeTarget "GIT-TEST-Flow" */;
 			buildPhases = (
+				6A603AEE7EAC0B49286DDEA0 /* [CP] Check Pods Manifest.lock */,
 				E91339E228CF1A7500DEBC7A /* Sources */,
 				E91339E328CF1A7500DEBC7A /* Frameworks */,
 				E91339E428CF1A7500DEBC7A /* Resources */,
+				D44AD120D53C2251FFFAF3C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -425,6 +473,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A603AEE7EAC0B49286DDEA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIT-TEST-Flow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44AD120D53C2251FFFAF3C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIT-TEST-Flow/Pods-GIT-TEST-Flow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIT-TEST-Flow/Pods-GIT-TEST-Flow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GIT-TEST-Flow/Pods-GIT-TEST-Flow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E91339E228CF1A7500DEBC7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -434,10 +524,12 @@
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
 				E9133A2328D15BAC00DEBC7A /* MusicPresenter.swift in Sources */,
 				9B69B75528D089C3001F59A7 /* ChatViewController.swift in Sources */,
+				E9133A2F28D176BE00DEBC7A /* CustomTextField.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
 				9B69B74A28D08970001F59A7 /* MapViewController.swift in Sources */,
 				E9133A0B28CF227F00DEBC7A /* ChangePasswordViewController.swift in Sources */,
+				E9133A3228D1892300DEBC7A /* CustomTextView.swift in Sources */,
 				9B69B74F28D089A2001F59A7 /* eKYCViewController.swift in Sources */,
 				E9133A1F28D0C72000DEBC7A /* MusicViewController.swift in Sources */,
 				9B69B75B28D089ED001F59A7 /* VRViewController.swift in Sources */,
@@ -586,6 +678,7 @@
 		};
 		E91339FB28CF1A7900DEBC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FB7373763B4249344D8E48 /* Pods-GIT-TEST-Flow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -614,6 +707,7 @@
 		};
 		E91339FC28CF1A7900DEBC7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670324728F3F93A0D9BA9F5A /* Pods-GIT-TEST-Flow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

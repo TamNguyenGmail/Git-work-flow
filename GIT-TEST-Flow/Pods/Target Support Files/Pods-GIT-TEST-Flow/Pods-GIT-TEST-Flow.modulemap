@@ -1,0 +1,6 @@
+framework module Pods_GIT_TEST_Flow {
+  umbrella header "Pods-GIT-TEST-Flow-umbrella.h"
+
+  export *
+  module * { export * }
+}
