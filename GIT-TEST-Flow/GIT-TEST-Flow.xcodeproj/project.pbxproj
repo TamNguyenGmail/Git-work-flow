@@ -34,6 +34,7 @@
 		E9133A1A28D0C4EC00DEBC7A /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */; };
 		E9133A1F28D0C72000DEBC7A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */; };
 		E9133A2028D0C72000DEBC7A /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */; };
+		E9133A2328D15BAC00DEBC7A /* MusicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9133A2228D15BAC00DEBC7A /* MusicPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		E9133A1828D0C4EC00DEBC7A /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
 		E9133A1D28D0C72000DEBC7A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		E9133A2228D15BAC00DEBC7A /* MusicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +326,7 @@
 		E9133A1B28D0C70800DEBC7A /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				E9133A2128D15B9900DEBC7A /* Presenter */,
 				E9133A1C28D0C70F00DEBC7A /* View */,
 			);
 			path = Music;
@@ -336,6 +339,14 @@
 				E9133A1E28D0C72000DEBC7A /* MusicViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E9133A2128D15B9900DEBC7A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E9133A2228D15BAC00DEBC7A /* MusicPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +432,7 @@
 			files = (
 				9B69B73E28D068AF001F59A7 /* UserCell.swift in Sources */,
 				E91339EE28CF1A7500DEBC7A /* ViewController.swift in Sources */,
+				E9133A2328D15BAC00DEBC7A /* MusicPresenter.swift in Sources */,
 				9B69B75528D089C3001F59A7 /* ChatViewController.swift in Sources */,
 				E91339EA28CF1A7500DEBC7A /* AppDelegate.swift in Sources */,
 				E9133A0328CF21DE00DEBC7A /* ProfileViewController.swift in Sources */,
