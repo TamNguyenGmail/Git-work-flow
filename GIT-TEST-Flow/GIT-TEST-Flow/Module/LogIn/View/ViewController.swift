@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //MARK: Outlets
     //MARK: Properties
     private lazy var userTableView: UITableView = {
         let table = UITableView()

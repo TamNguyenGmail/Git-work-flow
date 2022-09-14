@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    //MARK: Outlets
     //MARK: Properties
     private let diem = 5
 
