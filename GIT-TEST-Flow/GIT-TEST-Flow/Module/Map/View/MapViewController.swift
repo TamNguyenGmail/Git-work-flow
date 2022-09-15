@@ -8,6 +8,7 @@
 import UIKit
 
 class MapViewController: UITableViewCell {
+    //MARK: Properties
 
     override func awakeFromNib() {
         super.awakeFromNib()
