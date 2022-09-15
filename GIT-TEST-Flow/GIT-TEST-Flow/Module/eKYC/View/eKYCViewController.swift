@@ -8,6 +8,7 @@
 import UIKit
 
 class eKYCViewController: UIViewController {
+    //MARK: Properties
 
     override func viewDidLoad() {
         super.viewDidLoad()
