@@ -9,4 +9,6 @@ import Foundation
 
 class MusicPresenter {
     //MARK: - Properties
+    
+    //MARK: Functions
 }
